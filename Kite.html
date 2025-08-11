@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kite Shop</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #ffecd2, #fcb69f); /* Soft festive background */
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .kite-frame {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 30px;
+      border: 10px double #ff6f00; /* Bold orange double border */
+      background-color: #fff8e1; /* Light cream background */
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    .kite-frame::before {
+      content: "🪁 Kite Bazaar 🪁";
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ff6f00;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 10px;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      color: #d84315;
+    }
+
+    p {
+      font-size: 18px;
+      color: #4e342e;
+      text-align: center;
+    }
+    h2{
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+    }
+    button{
+        background-color: aliceblue;
+        color: darkgrey;
+        height: 45px;
+        box-shadow: 0 0 10px #beb1ad, 0 0 20px #838383, 0 0 30px #f1f1f1;
+      transition: transform 0.2s, box-shadow 0.3s;
+      border: 23px;
+      margin-left: 700px;
+    }
+    button:hover{
+        border-radius: 34px;
+        box-shadow: grey;
+        box-shadow: 0 0 10px #beb1ad, 0 0 20px #838383, 0 0 30px #f1f1f1;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="kite-frame">
+    <h1>Welcome to Kite Bazaar</h1>
+    <p>Celebrate the skies with vibrant kites! Explore our Independence Day collection and let your spirit soar.</p>
+  </div>
+  <h1><img src="remove the backgroun.png" height="409px" width="500px"></h1>
+  <button onclick="location.href='POC.html'">PLACE AN ORDER</button>
+
+  <h1><img src="images.jpeg" height="409px" width="500px"></h1>
+  <button onclick="location.href='POC.html'">PLACE AN ORDER</button>
+
+</body>
+</html>
